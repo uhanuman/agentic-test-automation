@@ -1,0 +1,10 @@
+{
+  "defaultMs": 15000,
+  "actionMs": 10000,
+  "navigationMs": 30000,
+  "assertionMs": 5000,
+  "endpoints": {
+    "/api/part/": 8000,
+    "/api/auth/token/": 5000
+  }
+}

@@ -11,8 +11,10 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@tests/*": ["tests/*"]
+      "@tests/*": ["tests/*"],
+      "@core/*": ["src/core/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
-  "include": ["tests/**/*.ts", "playwright.config.ts"]
+  "include": ["src/**/*.ts", "tests/**/*.ts", "playwright.config.ts"]
 }

@@ -1,0 +1,39 @@
+{
+  "_defaults": {
+    "outputDir": "${env:OUTPUT_DIR}",
+    "defaultTimeoutMs": 15000,
+    "retryCount": 2,
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    }
+  },
+  "dev": {
+    "baseUrl": "http://localhost:8000",
+    "webBaseUrl": "http://localhost:8000",
+    "authStrategy": "token",
+    "apiToken": "test_dev_token_12345",
+    "emailProvider": "imap"
+  },
+  "qa": {
+    "baseUrl": "http://localhost:8000",
+    "webBaseUrl": "http://localhost:8000",
+    "authStrategy": "token",
+    "apiToken": "test_qa_token_67890",
+    "emailProvider": "imap"
+  },
+  "staging": {
+    "baseUrl": "https://staging.api.example.com",
+    "webBaseUrl": "https://staging.app.example.com",
+    "authStrategy": "token",
+    "apiToken": "test_staging_token",
+    "emailProvider": "gmail"
+  },
+  "prod": {
+    "baseUrl": "https://api.example.com",
+    "webBaseUrl": "https://app.example.com",
+    "authStrategy": "oauth2",
+    "emailProvider": "graph",
+    "readOnlySmokeOnly": true
+  }
+}

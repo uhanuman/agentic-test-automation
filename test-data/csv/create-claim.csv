@@ -1,0 +1,6 @@
+field,scenario_happy_path,scenario_missing_dob,scenario_future_date
+firstName,Jane,Jane,Jane
+lastName,Doe,Doe,Doe
+dateOfBirth,${date:-10d},,${date:+5d}
+claimAmount,500,500,500
+expectedResult,success,validation_error,validation_error

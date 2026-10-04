@@ -1,0 +1,10 @@
+{
+  "strictInterpolation": false,
+  "captureNetworkTraffic": true,
+  "captureAriaSnapshots": true,
+  "captureConsoleLogs": true,
+  "captureScreenshotsOnFailure": true,
+  "capturePerformance": false,
+  "captureAccessibility": true,
+  "persistRuntimeStore": true
+}

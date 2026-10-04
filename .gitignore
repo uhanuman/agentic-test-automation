@@ -4,3 +4,10 @@ test-results/
 .env
 *.log
 .DS_Store
+output/
+artifacts/
+
+docs/framework-design.prompt.md
+docs/framework-implementation-plan.md
+docs/variable-store-and-runtime-data-plan.md
+docs/variable-store-interpolator-specification.md

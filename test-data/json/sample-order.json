@@ -1,0 +1,11 @@
+{
+  "orderRef": "ORD-${uuid}",
+  "customerId": {
+    "DEV": 101,
+    "QA": 202,
+    "STAGE": 303
+  },
+  "orderDate": "${date:today}",
+  "deliveryDate": "${date:+7d}",
+  "notes": "${upper:urgent delivery}"
+}

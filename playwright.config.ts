@@ -18,7 +18,7 @@ export default defineConfig({
     baseURL: process.env.INVENTREE_BASE_URL || 'http://localhost:8000',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    video: 'off',
     extraHTTPHeaders: {
       'Accept': 'application/json',
     }
